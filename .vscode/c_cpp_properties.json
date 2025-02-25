@@ -3,11 +3,11 @@
         {
             "name": "Target 1",
             "includePath": [
-                "c:\\Users\\34118\\Documents\\WeChat Files\\wxid_yfkgnw4l7ew822\\FileStorage\\File\\2025-02\\20250224-161925\\start",
-                "c:\\Users\\34118\\Documents\\WeChat Files\\wxid_yfkgnw4l7ew822\\FileStorage\\File\\2025-02\\20250224-161925\\library",
-                "c:\\Users\\34118\\Documents\\WeChat Files\\wxid_yfkgnw4l7ew822\\FileStorage\\File\\2025-02\\20250224-161925\\user",
-                "c:\\Users\\34118\\Documents\\WeChat Files\\wxid_yfkgnw4l7ew822\\FileStorage\\File\\2025-02\\20250224-161925\\hardware",
-                "c:\\Users\\34118\\Documents\\WeChat Files\\wxid_yfkgnw4l7ew822\\FileStorage\\File\\2025-02\\20250224-161925\\system",
+                "c:\\Users\\34118\\Desktop\\20250224-161925\\start",
+                "c:\\Users\\34118\\Desktop\\20250224-161925\\library",
+                "c:\\Users\\34118\\Desktop\\20250224-161925\\user",
+                "c:\\Users\\34118\\Desktop\\20250224-161925\\hardware",
+                "c:\\Users\\34118\\Desktop\\20250224-161925\\system",
                 "C:\\Users\\34118\\AppData\\Local\\Keil_v5\\ARM\\ARMCC\\include",
                 "C:\\Users\\34118\\AppData\\Local\\Keil_v5\\ARM\\ARMCC\\include\\arm_linux",
                 "C:\\Users\\34118\\AppData\\Local\\Keil_v5\\ARM\\ARMCC\\include\\arm_linux_compat",

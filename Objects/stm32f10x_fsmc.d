@@ -2,7 +2,7 @@
 .\objects\stm32f10x_fsmc.o: library\stm32f10x_fsmc.h
 .\objects\stm32f10x_fsmc.o: .\start\stm32f10x.h
 .\objects\stm32f10x_fsmc.o: .\start\core_cm3.h
-.\objects\stm32f10x_fsmc.o: D:\keil5\C51\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\stm32f10x_fsmc.o: C:\Users\34118\AppData\Local\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
 .\objects\stm32f10x_fsmc.o: .\start\system_stm32f10x.h
 .\objects\stm32f10x_fsmc.o: .\user\stm32f10x_conf.h
 .\objects\stm32f10x_fsmc.o: .\library\stm32f10x_adc.h

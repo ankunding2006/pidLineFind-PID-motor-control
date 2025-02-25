@@ -1,7 +1,7 @@
 .\objects\duoji.o: hardware\duoji.c
 .\objects\duoji.o: .\start\stm32f10x.h
 .\objects\duoji.o: .\start\core_cm3.h
-.\objects\duoji.o: D:\keil5\C51\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\duoji.o: C:\Users\34118\AppData\Local\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
 .\objects\duoji.o: .\start\system_stm32f10x.h
 .\objects\duoji.o: .\user\stm32f10x_conf.h
 .\objects\duoji.o: .\library\stm32f10x_adc.h

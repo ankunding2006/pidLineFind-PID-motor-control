@@ -43,6 +43,27 @@ float actual_speed_b = 0.0f;
 static float error_buffer[FILTER_SIZE] = {0.0f};
 static uint8_t buffer_index = 0;
 
+// 添加全局计时变量
+static __IO uint32_t TimingDelay = 0;
+
+// SysTick 初始化函数
+void SysTick_Init(void) {
+    // 配置 SysTick 为 1ms 中断
+    if (SysTick_Config(SystemCoreClock / 1000)) {
+        while (1);  // 配置失败则死循环
+    }
+}
+
+// SysTick 中断服务函数
+void SysTick_Handler(void) {
+    TimingDelay++;
+}
+
+// 获取系统运行时间（ms）
+uint32_t Get_Tick(void) {
+    return TimingDelay;
+}
+
 // 读取循迹传感器状态
 static void read_line_sensors(uint8_t *sensors) {
     sensors[0] = GPIO_ReadInputDataBit(SENSOR_PORT, SENSOR_LEFT);
@@ -105,6 +126,7 @@ int main(void) {
     HALL();
     xunjiInit();
     bizhang();
+    SysTick_Init();  // 添加 SysTick 初始化
     
     // 初始化显示
     OLED_ShowString(1, 1, "Speed:");
@@ -112,7 +134,7 @@ int main(void) {
     
     // 主循环
     while(1) {
-        uint32_t current_time = HAL_GetTick();
+        uint32_t current_time = Get_Tick();  // 替换 HAL_GetTick()
         
         // 控制周期更新
         if(current_time - last_control_time >= CONTROL_PERIOD) {

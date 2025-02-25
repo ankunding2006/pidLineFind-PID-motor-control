@@ -1,7 +1,7 @@
 .\objects\pid.o: hardware\PID.c
 .\objects\pid.o: .\start\stm32f10x.h
 .\objects\pid.o: .\start\core_cm3.h
-.\objects\pid.o: D:\keil5\C51\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\pid.o: C:\Users\34118\AppData\Local\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
 .\objects\pid.o: .\start\system_stm32f10x.h
 .\objects\pid.o: .\user\stm32f10x_conf.h
 .\objects\pid.o: .\library\stm32f10x_adc.h
@@ -31,4 +31,4 @@
 .\objects\pid.o: .\system\Delay.h
 .\objects\pid.o: hardware\dianji.h
 .\objects\pid.o: hardware\pwm.h
-.\objects\pid.o: D:\keil5\C51\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\pid.o: C:\Users\34118\AppData\Local\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h

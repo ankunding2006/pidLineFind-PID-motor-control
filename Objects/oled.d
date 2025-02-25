@@ -1,7 +1,7 @@
 .\objects\oled.o: hardware\OLED.c
 .\objects\oled.o: .\start\stm32f10x.h
 .\objects\oled.o: .\start\core_cm3.h
-.\objects\oled.o: D:\keil5\C51\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\oled.o: C:\Users\34118\AppData\Local\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
 .\objects\oled.o: .\start\system_stm32f10x.h
 .\objects\oled.o: .\user\stm32f10x_conf.h
 .\objects\oled.o: .\library\stm32f10x_adc.h

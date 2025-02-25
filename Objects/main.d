@@ -1,7 +1,7 @@
 .\objects\main.o: user\main.c
 .\objects\main.o: .\start\stm32f10x.h
 .\objects\main.o: .\start\core_cm3.h
-.\objects\main.o: D:\keil5\C51\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\main.o: C:\Users\34118\AppData\Local\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
 .\objects\main.o: .\start\system_stm32f10x.h
 .\objects\main.o: .\user\stm32f10x_conf.h
 .\objects\main.o: .\library\stm32f10x_adc.h
@@ -33,6 +33,7 @@
 .\objects\main.o: .\hardware\dianji.h
 .\objects\main.o: .\hardware\PID.h
 .\objects\main.o: .\hardware\pwm.h
-.\objects\main.o: D:\keil5\C51\ARM\ARMCC\Bin\..\include\stdio.h
 .\objects\main.o: .\hardware\xunji.h
 .\objects\main.o: .\hardware\bizhang.h
+.\objects\main.o: user\LinePID.h
+.\objects\main.o: user\SpeedControl.h
